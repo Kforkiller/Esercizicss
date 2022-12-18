@@ -1,0 +1,40 @@
+nav{
+    flex: auto;
+    height: 40px;
+    background-color: rgb(33, 41, 66);
+    border-radius: 50px;
+    border-color: green;
+}
+.contentbar{
+    color: white;
+    padding: 10px;
+}
+.b_search{
+    border-radius: 5px;
+}
+.b_search:hover{
+    color:white;
+    background-color: green;
+    border-radius: 5px;
+}
+.box_search{
+    border-radius: 5px;
+}
+p{
+    display: inline;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hiding{
+        display: none;
+    }
+    .hamenu{
+        display: inline;
+    }
+}
+@media screen and (min-width: 768px) {
+    .hamenu{
+        display: none;
+    }
+}
